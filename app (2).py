@@ -30,7 +30,7 @@ st.write("Threshold:", SURVIVE_THRESHOLD)
 if st.button("Predict Survival"):
 
     input_df = pd.DataFrame([{
-        "PClass": Class,
+        "Pclass": Class,
         "Age": Age,
         "sibspouse": SibSp,
         "parentchild": Parch,
